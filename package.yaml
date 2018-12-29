@@ -9,6 +9,9 @@ category: Database
 synopsis: "A newtype for wrapping newtypes into beam schemas"
 description:         Please see the README on GitHub at <https://github.com/jappeace/dbfield#readme>
 
+extra-source-files:
+- Readme.md
+
 dependencies:
 - base >= 4.7 && < 5
 
