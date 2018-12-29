@@ -1,0 +1,5 @@
+.stack-work/
+network-uri-lenses.cabal
+.ghc.environment.x86_64-linux-8.4.4
+dist*
+.#*
