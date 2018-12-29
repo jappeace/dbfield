@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 286af554b8ed825173455484a0fcfa5ba9b6fb6781dc0788a40fcea6f4cba0ea
+-- hash: 010af9da15c21e60746ec8c226a65677bbc3427f8214ee1c62a95c49c001c86b
 
 name:           beam-newtype-field
 version:        0.2.0.0
@@ -15,8 +15,11 @@ author:         Jappie Klooster
 maintainer:     jappieklooster@hotmail.com
 copyright:      2018 Jappie Klooster
 license:        MIT
+license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
+extra-source-files:
+    Readme.md
 
 source-repository head
   type: git
