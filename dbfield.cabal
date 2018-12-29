@@ -2,19 +2,19 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9c0cb01aa9ce2911d89383be97eba42d77dcd8f7aecdd888cf7fa6919efbc68b
+-- hash: b86405063ca30dd305d322c8ce913134421b71f510e79709016df4152fb40ca3
 
 name:           dbfield
 version:        0.2.0.0
 synopsis:       A newtype for wrapping newtypes into beam schemas
-description:    Please see the README on GitHub at <https://github.com/githubuser/network-uri-lenses#readme>
-category:       Network
+description:    Please see the README on GitHub at <https://github.com/jappeace/dbfield#readme>
+category:       Database
 homepage:       https://github.com/jappeace/dbfield#readme
 bug-reports:    https://github.com/jappeace/dbfield/issues
 author:         Jappie Klooster
 maintainer:     jappieklooster@hotmail.com
 copyright:      2018 Jappie Klooster
-license:        BSD3
+license:        MIT
 build-type:     Simple
 cabal-version:  >= 1.10
 
