@@ -25,3 +25,5 @@ library:
   dependencies:
     - beam-core
     - lens
+    - beam-migrate
+    - postgresql-simple

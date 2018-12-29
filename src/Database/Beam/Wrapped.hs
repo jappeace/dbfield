@@ -16,8 +16,7 @@ import           Database.Beam.Backend.SQL.SQL92 (IsSql92DataTypeSyntax,
 import           Database.Beam.Backend.Types     (BackendFromField, BeamBackend)
 import           Database.Beam.Migrate
 import           GHC.Generics                    (Generic)
-import           Raster.Backend.DB.Enum
-
+import           Database.PostgreSQL.Simple.FromField (FromField (..))
 -- | A wrapper for newtyps in the database, the only restriction it
 --   places on newtypes is that they implement Wrapped from
 --   Control.Lens.Wrapped.

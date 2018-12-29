@@ -21,6 +21,7 @@ pkgs.stdenv.mkDerivation {
     pkgs.haskellPackages.hpack
     pkgs.cabal-install
     pkgs.ghc
+    pkgs.postgresql
   ] ++ build.buildInputs;
     
 }
