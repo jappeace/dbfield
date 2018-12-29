@@ -1,4 +1,4 @@
-name:                dbfield
+name:                beam-newtype-field
 version:             0.2.0.0
 github:              "jappeace/dbfield"
 license:             MIT

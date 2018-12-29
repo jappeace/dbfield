@@ -2,9 +2,9 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b86405063ca30dd305d322c8ce913134421b71f510e79709016df4152fb40ca3
+-- hash: 286af554b8ed825173455484a0fcfa5ba9b6fb6781dc0788a40fcea6f4cba0ea
 
-name:           dbfield
+name:           beam-newtype-field
 version:        0.2.0.0
 synopsis:       A newtype for wrapping newtypes into beam schemas
 description:    Please see the README on GitHub at <https://github.com/jappeace/dbfield#readme>
@@ -26,7 +26,7 @@ library
   exposed-modules:
       Database.Beam.Wrapped
   other-modules:
-      Paths_dbfield
+      Paths_beam_newtype_field
   hs-source-dirs:
       src
   build-depends:

@@ -2,7 +2,7 @@
 , postgresql-simple, stdenv
 }:
 mkDerivation {
-  pname = "dbfield";
+  pname = "beam-newtype-field";
   version = "0.2.0.0";
   src = ./.;
   libraryHaskellDepends = [
@@ -12,5 +12,5 @@ mkDerivation {
   preConfigure = "hpack";
   homepage = "https://github.com/jappeace/dbfield#readme";
   description = "A newtype for wrapping newtypes into beam schemas";
-  license = stdenv.lib.licenses.bsd3;
+  license = stdenv.lib.licenses.mit;
 }
