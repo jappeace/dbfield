@@ -2,10 +2,10 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 010af9da15c21e60746ec8c226a65677bbc3427f8214ee1c62a95c49c001c86b
+-- hash: 0b5f0e7e687d64510e89dcc34e029bd7eeb60a804770257f8c4b90c7436bd797
 
 name:           beam-newtype-field
-version:        0.2.0.0
+version:        0.3.0.0
 synopsis:       A newtype for wrapping newtypes into beam schemas
 description:    Please see the README on GitHub at <https://github.com/jappeace/dbfield#readme>
 category:       Database
@@ -34,8 +34,8 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , beam-core
-    , beam-migrate
+    , beam-core >=0.8 && <0.9
+    , beam-migrate >=0.4 && <0.5
     , lens
-    , postgresql-simple
+    , postgresql-simple >=0.5 && <0.7
   default-language: Haskell2010

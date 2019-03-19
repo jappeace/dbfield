@@ -1,5 +1,5 @@
 name:                beam-newtype-field
-version:             0.2.0.0
+version:             0.3.0.0
 github:              "jappeace/dbfield"
 license:             MIT
 author:              "Jappie Klooster"
@@ -18,7 +18,8 @@ dependencies:
 library:
   source-dirs: src
   dependencies:
-    - beam-core
     - lens
-    - beam-migrate
     - postgresql-simple
+    - postgresql-simple >=0.5 && <0.7
+    - beam-core >=0.8 && <0.9
+    - beam-migrate >=0.4 && <0.5
