@@ -12,8 +12,6 @@ import           Control.Lens
 import           Database.Beam
 import           Database.Beam.Backend.SQL            (BeamSqlBackend,
                                                        HasSqlValueSyntax (..))
-import           Database.Beam.Backend.SQL.SQL92      (IsSql92DataTypeSyntax,
-                                                       IsSql92ExpressionSyntax)
 import           Database.Beam.Backend.Types          (BackendFromField,
                                                        BeamBackend)
 import           Database.Beam.Migrate
@@ -36,7 +34,7 @@ instance (Typeable a, Wrapped a, BeamBackend be,
          ) =>
          FromBackendRow be (DBFieldWrap a)
 
-instance ( BeamSqlBackend be, IsSql92ExpressionSyntax be
+instance ( BeamSqlBackend be
          , Wrapped a
          , HasSqlEqualityCheck be (Unwrapped a)
          ) =>
@@ -49,8 +47,7 @@ instance (Wrapped a, HasSqlValueSyntax be (Unwrapped a)) =>
          HasSqlValueSyntax be (DBFieldWrap a) where
   sqlValueSyntax = sqlValueSyntax . view (_Wrapped' . _Wrapped')
 
-instance ( IsSql92DataTypeSyntax be
-         , Wrapped a
+instance ( Wrapped a
          , HasDefaultSqlDataType be (Unwrapped a)
          ) =>
          HasDefaultSqlDataType be (DBFieldWrap a) where
