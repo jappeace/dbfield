@@ -1,11 +1,10 @@
-cabal-version: 1.12
-
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.28.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 093eab9db87e9443734368655691b339e27a22270266430d510bfa70b5715489
+-- hash: 71e6ab26454dad91f10bc09246220b3cb04f23473cc972e8b32c49474872b523
 
+cabal-version:  >= 1.10
 name:           beam-newtype-field
 version:        0.3.0.0
 synopsis:       A newtype for wrapping newtypes into beam schemas
